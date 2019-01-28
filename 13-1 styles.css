@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+.navbar {
+    background-color: white;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 30px;
+}
+
+#logo {
+    float: left;
+    height: 20px;
+    display: inline-block;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    float: right;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    color: #545454;
+}
+
+/* hero header */
+
+
+/* products */
+
+.big-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    color: #545454;
+    font-weight: bold;
+}
+
+.products-text {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+
+
+.products-intro {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-intro a {
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: #545454;
+}
+
+.products-photo {
+    width: 225px;
+    height: 225px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.first-line {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+/* footer */
+
+.logos {
+    clear: left;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.last {
+    margin-bottom: 120px;
+}
+
+.logos a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
