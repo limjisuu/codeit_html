@@ -1,0 +1,101 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.carousel-item {
+  background-color: black;
+  height: 400px;
+  background-size: cover;
+}
+
+.carousel-item.first {
+  background-image: url("../images/guitar.jpg");
+  background-position: left center;
+}
+
+.carousel-item.second {
+  background-image: url("../images/makeup.jpg");
+  background-position: center top;
+}
+
+.carousel-item.third {
+  background-image: url("../images/cooking.jpg");
+  background-position: center center;
+}
+
+.carousel-text {
+  color: white;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carousel-big-title {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.carousel-small-title {
+  font-size: 22px;
+  margin-bottom: 48px;
+}
+
+.carousel-text a {
+  text-decoration: none;
+  color: white;
+  background-color: #5900e7;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.carousel-inner {
+  line-height: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+
+.container .alert {
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+.set {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.course-text {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.course-photo {
+  width: 100%;
+  display: block;
+}
+
+.name {
+  font-size: 13px;
+  color: #4a4a4a;
+}
+
+.title {
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+
+}
+
+.teacher img,
+.teacher .name {
+  vertical-align: middle;
+}
+
+a:hover {
+  text-decoration: none;
+}
